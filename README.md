@@ -4,6 +4,8 @@
 - **Version**: 		0.1
 
 ## Changelog
+- **2014-12-17** mika.borner@gmail.com
+        - App split into alert_manager and TA-alert_manager
 
 ## Release Notes
 
