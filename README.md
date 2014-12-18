@@ -4,19 +4,48 @@
 - **Version**: 		0.1
 
 ## Changelog
+- **2014-12-18** mika.borner@gmail.com
+	- Installation instructions update
 - **2014-12-17** mika.borner@gmail.com
-        - App split into alert_manager and TA-alert_manager
+	- App split into alert_manager and TA-alert_manager
 
 ## Release Notes
 
 ## Credits
 
 ## Prerequisites
+- Splunk v6.2 and above
 
 ## Usage
-### Installation
+### Deployment Matrix
 
-#### Note for distributed environments
+<table>
+	<tr>
+		<td></td>
+		<td>Alert Manager</td>
+		<td>Add-on for Alert Manager</td>
+	</tr>
+    <tr>
+        <td>Search Head</td>
+        <td>x</td>
+        <td>x</td>
+    </tr>
+    <tr>
+    	<td>Indexer</td>
+    	<td></td>
+    	<td>x</td>
+    </tr>
+</table>
+
+**Note:** If you forward events from the search head trough heavy forwarder to the indexer, install the Add-on on the heavy forwarder and disable the index.
+
+### Installation
+1. Unpack and install app to $SPLUNK_HOME/etc/apps
+2. Configure indexes.conf in local/ if you wan't to have your own index
+	- Disable 'alerts' index
+	- Create your own
+	- Configure index in alert manager setup page
+3. Restart Splunk
 
 ## Known Issues
 - n/a
