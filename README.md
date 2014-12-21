@@ -4,7 +4,7 @@
 - **Version**: 		0.1
 
 ## Changelog
-- **2014-12-19** simon@balz.me
+- **2014-12-21** simon@balz.me
 	- Fixed a bug to index correctly new incidents fired from realtime alerts
 - **2014-12-18** simon@balz.me
 	- Installation instructions update
