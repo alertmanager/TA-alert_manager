@@ -4,6 +4,8 @@
 - **Version**: 		0.2
 
 ## Changelog
+- **2014-12-28** mika.borner@gmail.com
+	- Fixed permissions to read *
 - **2014-12-28** simon@balz.me
 	- Fixed missing sourcetype
 - **2014-12-21** simon@balz.me
