@@ -1,9 +1,13 @@
 # Technology Add-on for Alert Manager
 - **Authors**:		Simon Balz <simon@balz.me>, Mika Borner <mika.borner@gmail.com>
 - **Description**:	Technology Add-on for Alert Manager (https://github.com/simcen/alert_manager)
-- **Version**: 		0.2
+- **Version**: 		0.3
 
 ## Changelog
+- **2014-12-28** mika.borner@gmail.com
+	- Fixed permissions to read *
+- **2014-12-28** simon@balz.me
+	- Fixed missing sourcetype
 - **2014-12-21** simon@balz.me
 	- Fixed a bug to index correctly new incidents fired from realtime alerts
 - **2014-12-18** simon@balz.me
@@ -12,6 +16,8 @@
 	- App split into alert_manager and TA-alert_manager
 
 ## Release Notes
+- **v0.3**    /   2014-12-28
+	- Bugfix release
 
 ## Credits
 
