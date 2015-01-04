@@ -4,6 +4,8 @@
 - **Version**: 		0.3
 
 ## Changelog
+- **2014-01-04** simon@balz.me
+	- Fixed a bug where very large alert result sets have been truncated
 - **2014-12-28** mika.borner@gmail.com
 	- Fixed permissions to read *
 - **2014-12-28** simon@balz.me
