@@ -18,6 +18,9 @@
 	- App split into alert_manager and TA-alert_manager
 
 ## Release Notes
+- **v0.3**    /   2015-01-19
+  - Bugfix release
+  - Final release for Splunk Apptitude submission
 - **v0.3**    /   2014-12-28
 	- Bugfix release
 
