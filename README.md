@@ -1,7 +1,7 @@
 # Technology Add-on for Alert Manager
-- **Authors**:		Simon Balz <simon@balz.me>, Mika Borner <mika.borner@gmail.com>
-- **Description**:	Technology Add-on for Alert Manager (https://github.com/simcen/alert_manager)
-- **Version**: 		0.3
+- **Authors**:      Simon Balz <simon@balz.me>, Mika Borner <mika.borner@gmail.com>
+- **Description**:  Technology Add-on for Alert Manager (https://github.com/simcen/alert_manager)
+- **Version**:      1.0
 
 ## Changelog
 - **2014-01-04** simon@balz.me
