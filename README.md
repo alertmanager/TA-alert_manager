@@ -4,7 +4,9 @@
 - **Version**:      1.0
 
 ## Changelog
-- **2014-01-04** simon@balz.me
+- **2015-04-15** simon@balz.me
+  - Fixed a bug for large alert_metadata events
+- **2015-01-04** simon@balz.me
 	- Fixed a bug where very large alert result sets have been truncated
 - **2014-12-28** mika.borner@gmail.com
 	- Fixed permissions to read *
