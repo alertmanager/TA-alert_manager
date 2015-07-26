@@ -1,10 +1,16 @@
 # Technology Add-on for Alert Manager
 - **Authors**:      Simon Balz <simon@balz.me>, Mika Borner <mika.borner@gmail.com>
 - **Description**:  Technology Add-on for Alert Manager (https://github.com/simcen/alert_manager)
-- **Version**:      1.0
+- **Version**:      2.0
 
 ## Changelog
-- **2014-01-04** simon@balz.me
+- **2015-07-26** simon@balz.me
+  - Changed TRUNCATE to something else than zero, since it could cause an indexer crash
+- **2015-04-24** simon@balz.me
+  - Added limits.conf to ensure KV extraction for long alert_metadata events
+- **2015-04-15** simon@balz.me
+  - Fixed a bug for large alert_metadata events
+- **2015-01-04** simon@balz.me
 	- Fixed a bug where very large alert result sets have been truncated
 - **2014-12-28** mika.borner@gmail.com
 	- Fixed permissions to read *
@@ -18,6 +24,8 @@
 	- App split into alert_manager and TA-alert_manager
 
 ## Release Notes
+- **v2.0**    /   2015-07-26
+  - Bugfix release
 - **v0.3**    /   2015-01-19
   - Bugfix release
   - Final release for Splunk Apptitude submission
