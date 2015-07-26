@@ -4,6 +4,8 @@
 - **Version**:      1.0
 
 ## Changelog
+- **2015-07-26** simon@balz.me
+  - Changed TRUNCATE to something else than zero, since it could cause an indexer crash
 - **2015-04-24** simon@balz.me
   - Added limits.conf to ensure KV extraction for long alert_metadata events
 - **2015-04-15** simon@balz.me
