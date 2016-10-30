@@ -1,7 +1,7 @@
 # Technology Add-on for Alert Manager
 - **Authors**:      Simon Balz <simon@balz.me>, Mika Borner <mika.borner@gmail.com>
 - **Description**:  Technology Add-on for Alert Manager (https://github.com/simcen/alert_manager)
-- **Version**:      2.0
+- **Version**:      @build.version@
 
 ## Changelog
 - **2015-07-26** simon@balz.me
@@ -24,6 +24,8 @@
 	- App split into alert_manager and TA-alert_manager
 
 ## Release Notes
+- **v2.1**    /   2016-10-22
+  - New minor release for Splunkbase publication
 - **v2.0**    /   2015-07-26
   - Bugfix release
 - **v0.3**    /   2015-01-19
@@ -62,10 +64,7 @@
 
 ### Installation
 1. Unpack and install app to $SPLUNK_HOME/etc/apps
-2. Configure indexes.conf in local/ if you want to use your own index
-	- Disable 'alerts' index
-	- Create your own index and configure on alert manager setup page
-3. Restart Splunk
+2. Restart Splunk
 
 ## Known Issues
 - n/a
