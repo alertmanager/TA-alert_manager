@@ -4,6 +4,8 @@
 - **Version**:      @build.version@
 
 ## Changelog
+- **2015-07-30** simon@balz.me
+  - Removed index from eventtypes
 - **2015-07-26** simon@balz.me
   - Changed TRUNCATE to something else than zero, since it could cause an indexer crash
 - **2015-04-24** simon@balz.me
