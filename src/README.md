@@ -7,6 +7,7 @@
 - **2018-06-29** my2ndhead
   - Fixed sourcetype bugs
   - Optimized event breaking and date parsing
+  - Optimized extraction for comments that contain double-quotes
 - **2015-07-30** simon@balz.me
   - Removed index from eventtypes
 - **2015-07-26** simon@balz.me
