@@ -4,6 +4,10 @@
 - **Version**:      @build.version@
 
 ## Changelog
+- **2018-06-29** my2ndhead
+  - Fixed sourcetype bugs
+  - Optimized event breaking and date parsing
+  - Optimized extraction for comments that contain double-quotes
 - **2015-07-30** simon@balz.me
   - Removed index from eventtypes
 - **2015-07-26** simon@balz.me
@@ -26,6 +30,8 @@
 	- App split into alert_manager and TA-alert_manager
 
 ## Release Notes
+- **v3.0**    /   2018-06-29
+  - Major Release
 - **v2.1**    /   2016-10-22
   - New minor release for Splunkbase publication
 - **v2.0**    /   2015-07-26
