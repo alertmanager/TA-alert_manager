@@ -4,6 +4,8 @@
 - **Version**:      @version@
 
 ## Changelog
+- **2018-09-23** my2ndhead
+  - Fixed a timestamp/line-breaking issue for incident_changes
 - **2018-06-29** my2ndhead
   - Fixed sourcetype bugs
   - Optimized event breaking and date parsing
