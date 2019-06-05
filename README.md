@@ -4,6 +4,9 @@
 - **Version**:      @version@
 
 ## Changelog
+- **2019-06-06** my2ndhead
+  - Removed limits.conf for app certification / removed requirement of TA installation on indexers
+  - Changed json auto-kv to extracts for sourcetype alert metadata
 - **2018-09-23** my2ndhead
   - Fixed a timestamp/line-breaking issue for incident_changes
 - **2018-06-29** my2ndhead
@@ -32,6 +35,9 @@
 	- App split into alert_manager and TA-alert_manager
 
 ## Release Notes
+- **v2.3.0**    / 2019-06-05
+  - Changes for app certification
+  - Requirement to install on indexers removed
 - **v2.2.0**    / 2018-08-31
   - Bugfixes
 - **v2.1**    /   2016-10-22
@@ -50,30 +56,9 @@
 - Splunk v6.2 and above
 
 ## Usage
-### Deployment Matrix
-
-<table>
-	<tr>
-		<td></td>
-		<td>Alert Manager</td>
-		<td>Add-on for Alert Manager</td>
-	</tr>
-    <tr>
-        <td>Search Head</td>
-        <td>x</td>
-        <td>x</td>
-    </tr>
-    <tr>
-    	<td>Indexer</td>
-    	<td></td>
-    	<td>x</td>
-    </tr>
-</table>
-
-**Note:** If you forward events from the search head trough heavy forwarders to the indexer, install the Add-on on the heavy forwarder and disable the index there.
 
 ### Installation
-1. Unpack and install app to $SPLUNK_HOME/etc/apps
+1. Unpack and install app on the Search Head to $SPLUNK_HOME/etc/apps
 2. Restart Splunk
 
 ## Known Issues
