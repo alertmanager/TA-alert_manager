@@ -7,6 +7,7 @@
 - **2019-06-06** my2ndhead
   - Removed limits.conf for app certification / removed requirement of TA installation on indexers
   - Changed json auto-kv to extracts for sourcetype alert metadata
+  - Minor license change
 - **2018-09-23** my2ndhead
   - Fixed a timestamp/line-breaking issue for incident_changes
 - **2018-06-29** my2ndhead
@@ -71,6 +72,5 @@
   - "A commercial use is one primarily intended for commercial advantage or monetary compensation."
 - **In case of Alert Manager this translates to:**
   - You may use Alert Manager in commercial environments for handling in-house Splunk alerts
-  - You may use Alert Manager as part of your consulting or integration work, if you're considered to be working on behalf of your customer. The customer will be the licensee of Alert Manager and must comply according to the license terms
   - You are not allowed to sell Alert Manager as a standalone product or within an application bundle
   - If you want to use Alert Manager outside of these license terms, please contact us and we will find a solution
